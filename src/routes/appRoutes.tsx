@@ -28,7 +28,7 @@ const appRoutes: RouteType[] = [
     element: <InstallationPage />,
     state: "installation",
     sidebarProps: {
-      displayText: "Installation",
+      displayText: "Prestamos Prenda Facil",
       icon: <FileDownloadOutlinedIcon />
     }
   },
@@ -37,7 +37,7 @@ const appRoutes: RouteType[] = [
     element: <DashboardPageLayout />,
     state: "dashboard",
     sidebarProps: {
-      displayText: "Dashboard",
+      displayText: "Registro Cliente",
       icon: <DashboardOutlinedIcon />
     },
     child: [
@@ -51,7 +51,7 @@ const appRoutes: RouteType[] = [
         element: <DefaultPage />,
         state: "dashboard.default",
         sidebarProps: {
-          displayText: "Default"
+          displayText: "Joyas"
         },
       },
       {
@@ -59,7 +59,7 @@ const appRoutes: RouteType[] = [
         element: <AnalyticsPage />,
         state: "dashboard.analytics",
         sidebarProps: {
-          displayText: "Analytic"
+          displayText: "Objetos Prenda"
         }
       },
       {
@@ -67,7 +67,7 @@ const appRoutes: RouteType[] = [
         element: <SaasPage />,
         state: "dashboard.saas",
         sidebarProps: {
-          displayText: "Saas"
+          displayText: "Documentos INRA"
         }
       }
     ]
@@ -77,7 +77,7 @@ const appRoutes: RouteType[] = [
     element: <ComponentPageLayout />,
     state: "component",
     sidebarProps: {
-      displayText: "Components",
+      displayText: "Registro Pagos ",
       icon: <AppsOutlinedIcon />
     },
     child: [
@@ -86,7 +86,7 @@ const appRoutes: RouteType[] = [
         element: <AlertPage />,
         state: "component.alert",
         sidebarProps: {
-          displayText: "Alert"
+          displayText: "Pago Capital"
         },
       },
       {
@@ -94,7 +94,7 @@ const appRoutes: RouteType[] = [
         element: <ButtonPage />,
         state: "component.button",
         sidebarProps: {
-          displayText: "Button"
+          displayText: "Pago Interes"
         }
       }
     ]
@@ -104,7 +104,7 @@ const appRoutes: RouteType[] = [
     element: <DocumentationPage />,
     state: "documentation",
     sidebarProps: {
-      displayText: "Documentation",
+      displayText: "Registro Caja Chica",
       icon: <ArticleOutlinedIcon />
     }
   },
@@ -113,7 +113,7 @@ const appRoutes: RouteType[] = [
     element: <ChangelogPage />,
     state: "changelog",
     sidebarProps: {
-      displayText: "Changelog",
+      displayText: "Reportes",
       icon: <FormatListBulletedOutlinedIcon />
     }
   }
